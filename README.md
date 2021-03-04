@@ -34,7 +34,7 @@ $  python setup.py pytest
 Ejecutamos el setup y estos nos genera un archivo whl en la carpeta /dist
 
 ```sh
-$  python setup.py bdist_wheel
-$   ls dist
+$  python3.8 setup.py bdist_wheel
+$  ls dist
 mypythonlib-0.1.0-py3-none-any.whl
 ```
